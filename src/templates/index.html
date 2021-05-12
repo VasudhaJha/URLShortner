@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shorty</title>
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="Vasudha Jha">
+    <link href="{{ url_for('static', path='/css/bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', path='/css/style.css') }}" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>
+				Welcome to Shorty
+			</h1>
+			<h3>
+				Just a URL Shortner!
+			</h3>
+			<div class="form-group">
+				<label for="text_field">
+					Enter URL to shorten
+				</label>
+				<input type="text" class="form-control" id="text_field" name="text_field">
+			</div>
+			<button id="ok" class="btn btn-primary" onclick="send()">
+				OK
+			</button>
+			<button id="copy" class="btn btn-primary" onclick="copy()">
+				Copy
+			</button>
+			<br/>
+		</div>
+	</div>
+</div>
+    <script src="{{ url_for('static', path='/js/jquery.min.js') }}"></script>
+	<script src="{{ url_for('static', path='/js/bootstrap.min.js') }}"></script>
+	<script src="{{ url_for('static', path='/js/scripts.js') }}"></script>
+  </body>
+</html>
