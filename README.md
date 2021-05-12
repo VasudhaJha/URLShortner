@@ -6,6 +6,6 @@ Shorten any URL
 
 - [x] Create a url record for short url
 - [x] Redirection logic for short url
-- [x] Setting expiry for short_url
-- [ ] Get request for homepage
+- [x] Setting expiry for short url
+- [x] Get request for homepage
 - [ ] Containerize application
