@@ -9,3 +9,4 @@ Shorten any URL
 - [x] Setting expiry for short url
 - [x] Get request for homepage
 - [ ] Containerize application
+- [ ] Create documentation
